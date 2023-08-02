@@ -29,6 +29,11 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
+
+.weather-app-wrapper small {
+  display: block;
+  text-align: center;
+}
 .weather-temperature img {
   margin-right: 16px;
   height: 64px;
