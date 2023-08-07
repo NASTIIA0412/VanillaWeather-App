@@ -43,7 +43,7 @@ li:first-letter {
 }
 .weather-temperature strong {
   font-size: 64px;
-  color: rgb(33, 33, 33);
+  color: #717377;
   font-weight: 400px;
   line-height: 1;
 }
@@ -53,10 +53,25 @@ li:first-letter {
   top: -32px;
 }
 .weather-temperature .active {
-  color: black;
   cursor: default;
   text-decoration: none;
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+  color: #000;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
 }
